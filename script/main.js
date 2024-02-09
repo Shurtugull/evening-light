@@ -268,11 +268,10 @@ const animationTimeline = () => {
   // tl.seek("currentStep");
   // tl.timeScale(2);
 
-  // Restart Animation on click
-  const replyBtn = document.getElementById("replay");
-  replyBtn.addEventListener("click", () => {
-    tl.restart();
-  });
+  // Redirect Animation on click
+  document.getElementById("replay").addEventListener("click",() => {
+  window.location.href = "https://shurtugull.github.io/evening--light1/"; 
+});
 };
 
 // Import the data to customize and insert them into page
