@@ -270,7 +270,7 @@ const animationTimeline = () => {
 
   // Redirect Animation on click
   document.getElementById("replay").addEventListener("click",() => {
-  window.location.href = "https://shurtugull.github.io/evening--light1/"; 
+  window.location.href = "https://shurtugull.github.io/moon--light1/"; 
 });
 };
 
